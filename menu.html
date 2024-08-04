@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Factory</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+    
+    <!-- HEADER SECTION -->
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick="links()"><a class="nav_link" href="./index.html">Home</a></li>
+            <li onclick="links()"><a class="nav_link" href="./about.html">About</a></li>
+            <li onclick="links()"><a class="nav_link" href="./menu.html">menu</a></li>
+            <!-- <li onclick="links()"><a href="#">services</a></li> -->
+            <li onclick="links()"><a class="nav_link" href="./contact.html">contact</a></li>
+        </ul>
+
+        <div id="header">
+            <div id="logo">
+                <img src="./images/logo.jfif" alt="Company's Logo">
+            </div>
+            <ul>
+                <li class="hideOnMobile"><a class="nav_link" href="./index.html">Home</a></li>
+                <li class="hideOnMobile"><a class="nav_link" href="./about.html">About</a></li>
+                <li class="hideOnMobile"><a class="nav_link" href="./menu.html">Menu</a></li>
+                <li class="hideOnMobile"><a class="nav_link" href="./contact.html">Contact</a></li>
+                <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- MENU SECTION ONE -->
+    <section id="menusection-one">
+        <div id="menusec-one">
+            <h2>Our menu</h2>
+        </div>
+    </section>
+
+    <!-- MENU SECTION TWO -->
+    <section id="menusection-two">
+        <div id="menusec-two">
+            <div id="menu">
+                <div id="espresso-sec">
+                    <h3>Espresso</h3>
+                    <div id="menu-one">
+                        <!-- <p class="menu-header">Espresso</p> -->
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/americano.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Americano</p>
+                                <p class="coffee-two">$28.00</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/cappuccino.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Cappuccino</p>
+                                <p class="coffee-two">$28.00</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/double expresso.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Double Expresso</p>
+                                <p class="coffee-two">$28.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/latte.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Latte</p>
+                                <p class="coffee-two">$32.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/macchiato.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Macchiato</p>
+                                <p class="coffee-two">$38.00</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/macha.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Macha</p>
+                                <p class="coffee-two">$38.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/white mocha.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">White Mocha</p>
+                                <p class="coffee-two">$38.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ice-sec">
+                    <h3 id="ice-blended">Ice Blended</h3>
+                    <div id="menu-two">
+                        <!-- <p class="menu-header">Espresso</p> -->
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/caramel.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Caramel</p>
+                                <p class="coffee-two">$38.00</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/coffee jelly.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Coffee Jelly</p>
+                                <p class="coffee-two">$42.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/cookies and cream.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Cookies and Cream</p>
+                                <p class="coffee-two">$50.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/hazelnut mocha.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Hazelnut Mocha</p>
+                                <p class="coffee-two">$45.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/matcha cream.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Matcha Cream</p>
+                                <p class="coffee-two">$43.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/mint chocolate chip.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Mint Chocolate Chip</p>
+                                <p class="coffee-two">$59.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/strawberry cream.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Strawberry Cream</p>
+                                <p class="coffee-two">$55.80</p>
+                            </div>
+                        </div>
+                        <div class="coffee" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="coffee-image">
+                                <img src="./images/vanilla bean.jpg" alt="">
+                            </div>
+                            <div class="price">
+                                <p class="coffee-one">Vanilla Bean</p>
+                                <p class="coffee-two">$62.80</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MENU SECTION THREE -->
+    <!-- <section id="menusection-three">
+        <section id="menusec-three">
+            <div id="lastmenu-section">
+                <div>
+                    <h5>Address</h5>
+                    <p class="paragraph-menu">
+                        1111/Plot N0. 363, 88th Phase, LBB Close, Kanpur
+                    </p>
+                </div>
+                <div>
+                    <h5>Opening Hours</h5>
+                    <p class="paragraph-menu">Mon - Fri 08am - 10pm</p>
+                    <p class="p">Sat - Sun 11am - 12am</p>
+                </div>
+                <div id="contact-us">
+                    <h5>Contact Us</h5>
+                    <p class="paragraph-menu">coffeefactory@gmail.com</p>
+                    <p class="p">080 363 36777</p>
+                </div>
+            </div>
+            <div>
+                <hr>
+            </div>
+            <div id="last-menu-div">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div id="menu-icons">
+                        <div class="menu-icons-logo">
+                            <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </div>
+                        <div class="menu-icons-logo">
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </div>
+                        <div class="menu-icons-logo">
+                            <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a>
+                        </div>
+                        <div class="menu-icons-logo">
+                            <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                        </div>
+                </div> 
+            </div>
+        </section>
+    </section> -->
+
+
+
+    <!-- SECTION EIGHT -->
+    <section id="section-eight">
+        <div id="substitude-eight">
+            <div>
+                <h3>contact us</h3>
+            </div>
+            <div id="subsec-eight">
+                <div id="first-div">
+                    <div id="second-logo">
+                        <div id="logo-two">
+                            <img src="./images/logo.jfif" alt="Company's Logo">
+                        </div>
+                        <h5>Coffee Factory</h5>
+                    </div>
+                    <div>
+                        <div class="info">
+                            <div class="icons">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <p>080 363 36777</p>
+                        </div>
+                        <div class="info">
+                            <div class="icons">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <p class="word">coffeefactory@gmail.com</p>
+                        </div>
+                        <div class="info">
+                            <div id="icon-location" class="icons">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <p id="para-location" class="word">
+                                1111/Plot N0. 363, 88th Phase, LBB Close, Kanpur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div></div> -->
+                <div>
+                    <div id="sm-header">
+                        <h5>Social media links</h5>
+                    </div>
+                    <div id="social-media">
+                        <div class="media-links">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <a href="#"><p>Facebook</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <a href="#"><p>Instagram</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <a href="#"><p>Whatsapp</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <a href="#"><p>Twitter</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-links">
+                    <h5>Our Links</h5>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ICON LINK -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 10
+      });
+    </script>
+</body>
+</html>

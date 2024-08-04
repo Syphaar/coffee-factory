@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Factory</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+    
+    <!-- HEADER SECTION -->
+    <nav>
+        <ul class="sidebar">
+            <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li onclick="links()"><a class="nav_link" href="./index.html">Home</a></li>
+            <li onclick="links()"><a class="nav_link" href="./about.html">About</a></li>
+            <li onclick="links()"><a class="nav_link" href="./menu.html">menu</a></li>
+            <!-- <li onclick="links()"><a href="#">services</a></li> -->
+            <li onclick="links()"><a class="nav_link" href="./contact.html">contact</a></li>
+        </ul>
+
+        <div id="header">
+            <div id="logo">
+                <img src="./images/logo.jfif" alt="Company's Logo">
+            </div>
+            <ul>
+                <li class="hideOnMobile"><a class="nav_link" href="./index.html">Home</a></li>
+                <li class="hideOnMobile"><a class="nav_link" href="./about.html">About</a></li>
+                <li class="hideOnMobile"><a class="nav_link" href="./menu.html">Menu</a></li>
+                <li class="hideOnMobile"><a class="nav_link" href="./contact.html">Contact</a></li>
+                <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ABOUT SECTION ONE -->
+    <section id="contactsection-one">
+        <div id="contactsec-one">
+            <h2>About us</h2>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION TWO -->
+    <section id="aboutsection-two" data-aos="fade-up" data-aos-duration="1700">
+        <div >
+            <h3>Our story</h3>
+        </div>
+        <div id="about-paragraph">
+            <p>
+                <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Numquam tempora, laboriosam voluptatibus animi sint placeat 
+                commodi facere quasi, excepturi totam pariatur voluptate 
+                modi quibusdam magni sed ab alias iusto, accusantium ea 
+                non adipisci vitae? Fugiat ut temporibus odit soluta corporis, 
+                ratione minima rem exercitationem excepturi laudantium 
+                molestias quod? Vel culpa laudantium aspernatur a sunt 
+                consequatur inventore quam rem modi. Fugiat quae perferendis 
+                vero, ratione voluptates illum. Voluptate in beatae accusamus!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Numquam tempora, laboriosam voluptatibus animi sint placeat 
+                commodi facere quasi, excepturi totam pariatur voluptate 
+                modi quibusdam magni sed ab alias iusto, accusantium ea 
+                non adipisci vitae? Fugiat ut temporibus odit soluta corporis, 
+                ratione minima rem exercitationem excepturi laudantium 
+                molestias quod? Vel culpa laudantium aspernatur a sunt 
+                consequatur inventore quam rem modi. Fugiat quae perferendis 
+                vero, ratione voluptates illum. Voluptate in beatae accusamus! -->
+
+                Introducing "Coffee Factory", your go-to online coffee destination
+                for a flavorful journey from bean to cup. We meticulously source 
+                our beans suitable farms worldwide, ensuring top-notch quality and 
+                ethical practices. With a user-friendly website, customers can 
+                explore our diverse range of single-origin beans, signature blends, 
+                and special roasts. Whether you're a coffee connoisseur seeking the 
+                perfect pour-over or a casual sipper in need of a morning pick-me-up, 
+                Coffee Factory caters to all palates. Plus our subscription services 
+                delivers freshly roasted beans straight to your doorstep, guaranteeing 
+                a constant supply of coffee bliss. Join the Coffee Factory community 
+                today and elevate your coffee experience, one cup at a time.
+            </p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION THREE -->
+    <section id="background-logo">
+        <div class="bg-logo" data-aos="zoom-in" data-aos-duration="2000">
+            <!-- <ion-icon name="cafe-outline"></ion-icon> -->
+            <div id="home-logo">
+                <img src="./images/logo.jfif" alt="">
+            </div>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti?</p> -->
+            <p>Good ideas start with brainstorming, great ideas start with coffee</p>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION FOUR -->
+    <section id="aboutsection-four" data-aos="fade-up" data-aos-duration="2000">
+        <div>
+            <h3>Our happy visitors</h3>
+            <p class="para">
+                Happy visitors abound in our coffee restaurant, 
+                enjoying the inviting ambiance and delightful brews.
+            </p>
+        </div>
+        <div id="grid-four">
+            <div class="reviews">
+                <p>
+                    Great coffee and even better service. I tried the iced 
+                    mocha, and it was delicious. The outdoor seating area 
+                    is perfect for a sunny day. Highly recommend this place.
+                </p>
+                <h4>Charles Xavier</h4>
+            </div>
+            <div class="reviews">
+                <p>
+                    This coffee restaurant has a unique charm. The decor 
+                    is stylish and modern, and the atmosphere is very 
+                    relaxed. I tried their latte and it was amazing.
+                </p>
+                <h4>Racheal Smith</h4>
+            </div>
+            <div class="reviews">
+                <p>
+                    I had a wonderful experience here. The barista 
+                    recommended the house blend, and it was fantastic. 
+                    The latte art on my cappuccino was a nice touch too. 
+                    I'll definitely be back.
+                </p>
+                <h4>Emma Jackson</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION EIGHT -->
+    <section id="section-eight">
+        <div id="substitude-eight">
+            <div>
+                <h3>contact us</h3>
+            </div>
+            <div id="subsec-eight">
+                <div id="first-div">
+                    <div id="second-logo">
+                        <div id="logo-two">
+                            <img src="./images/logo.jfif" alt="Company's Logo">
+                        </div>
+                        <h5>Coffee Factory</h5>
+                    </div>
+                    <div>
+                        <div class="info">
+                            <div class="icons">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <p>080 363 36777</p>
+                        </div>
+                        <div class="info">
+                            <div class="icons">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <p class="word">coffeefactory@gmail.com</p>
+                        </div>
+                        <div class="info">
+                            <div id="icon-location" class="icons">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <p id="para-location" class="word">
+                                1111/Plot N0. 363, 88th Phase, LBB Close, Kanpur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div></div> -->
+                <div>
+                    <div id="sm-header">
+                        <h5>Social media links</h5>
+                    </div>
+                    <div id="social-media">
+                        <div class="media-links">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <a href="#"><p>Facebook</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <a href="#"><p>Instagram</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <a href="#"><p>Whatsapp</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <a href="#"><p>Twitter</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-links">
+                    <h5>Our Links</h5>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+
+    <!-- ICON LINK -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 10
+      });
+    </script>
+</body>
+</html>

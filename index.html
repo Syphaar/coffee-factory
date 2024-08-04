@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Factory</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    
+    
+   <!-- HEADER SECTION -->
+   <nav>
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li onclick="links()"><a class="nav_link" href="./index.html">Home</a></li>
+        <li onclick="links()"><a class="nav_link" href="./about.html">About</a></li>
+        <li onclick="links()"><a class="nav_link" href="./menu.html">menu</a></li>
+        <!-- <li onclick="links()"><a href="#">services</a></li> -->
+        <li onclick="links()"><a class="nav_link" href="./contact.html">contact</a></li>
+    </ul>
+
+    <div id="header">
+        <div id="logo">
+            <img src="./images/logo.jfif" alt="Company's Logo">
+        </div>
+        <ul>
+            <li class="hideOnMobile"><a class="nav_link" href="./index.html">Home</a></li>
+            <li class="hideOnMobile"><a class="nav_link" href="./about.html">About</a></li>
+            <li class="hideOnMobile"><a class="nav_link" href="./menu.html">Menu</a></li>
+            <li class="hideOnMobile"><a class="nav_link" href="./contact.html">Contact</a></li>
+            <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+    </div>
+</nav>
+
+
+    <!-- SECTION ONE -->
+    <section id="section-one">
+        <div id="subsec-one">
+            <div>
+                <!-- <img src="./images/bg.jfif" alt=""> -->
+            </div>
+            <div id="main-text" data-aos="zoom-in" data-aos-duration="1300">
+                <h2>Coffee factory</h2>
+                <p class="first-span"><span class="span">
+                    <img src="./images/fimage2.jpg" alt="image">
+                </span></p>
+                <p id="text">
+                    Welcome to our coffee restaurant, where exceptional 
+                    brews and a cozy atmosphere await you. Join us for a 
+                    relaxing experience and exceptional flavors.
+                </p>
+                <div id="button-one">
+                    <a href="./menu.html"><button id="btn">Shop here</button></a>
+                </div>
+            </div>
+        </div>        
+    </section>
+
+
+    <!-- SECTION TWO -->
+    <section id="section-two" data-aos="fade-up" data-aos-duration="2000">
+        <div id="subsec-two">
+            <h3>Our delicious offer</h3>
+            <p class="para">
+                Indulge in our delicious offer of freshly brewed 
+                coffee paired with mouthwatering pastries. Treat 
+                yourself to the perfect combination of flavors 
+                and textures.
+            </p>
+            <div class="grid">
+                <div class="grid-image">
+                    <img src="./images/coffee type.jpg" alt="">
+                    <h4>Types of Coffee</h4>
+                    <p class="paragraph">
+                        Our coffee restaurant offers a variety of coffee 
+                        types, including rich espressos, creamy lattes, 
+                        and refreshing cold brews, to cater to every taste.
+                    </p>
+                </div>
+                <div class="grid-image">
+                    <img src="./images/bean varieties.jpg" alt="">
+                    <h4>Bean Varieties</h4>
+                    <p class="paragraph">
+                        Our coffee restaurant features a selection of premium 
+                        bean varieties, including bold Robusta, smooth Arabica, 
+                        and unique blends from around the world.
+                    </p>
+                </div>
+                <div class="grid-image">
+                    <img src="./images/pastry.jpg" alt="">
+                    <h4>Coffee & Pastry</h4>
+                    <p class="paragraph">
+                        Enjoy our delicious coffee paired with freshly baked 
+                        pastries for a perfect combination at our coffee restaurant.
+                        Experience a symphony of flavors with every sip and bite.
+                    </p>
+                </div>
+                <div class="grid-image">
+                    <img src="./images/coffee togo.jpg" alt="">
+                    <h4>Coffee to go</h4>
+                    <p class="paragraph">
+                        Our coffee restaurant is your go-to spot for the finest 
+                        brews and a cozy atmosphere. Whether you need a morning 
+                        boost or an afternoon pick-me-up, we've got you covered.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- SECTION THREE -->
+    <section id="section-three">
+        <section id="subsection-three">
+            <div id="subsec-three" data-aos="fade-up" data-aos-duration="2000">
+                <div>
+                    <h3>The coffee herald</h3>
+                    <p class="para">
+                        Stay updated with The Coffee Herald, your source for 
+                        the latest coffee trends and exclusive offers. Discover 
+                        new flavors and exciting news right here in our coffee 
+                        restaurant.
+                    </p>
+                </div>
+                <div class="grid pictures">
+                    <div>
+                        <img src="./images/first.jpg" alt="">
+                        <h4>Prep techniques</h4>
+                        <p>
+                            At our coffee restaurant, we utilize a range 
+                            of preparation techniques to ensure each cup 
+                            is expertly crafted and full of flavor.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/second.jpg" alt="">
+                        <h4>French Press</h4>
+                        <p>
+                            Savor the rich aroma and full-bodied flavor 
+                            of our French press coffee at our coffee restaurant. 
+                            It's a delightful experience that embodies 
+                            the art of slow brewing.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/third.jpg" alt="">
+                        <h4>Turkish ibrik</h4>
+                        <p>
+                            Experience the exotic taste and tradition of 
+                            Turkish ibrik coffee at our coffee restaurant. 
+                            Delight in the bold flavors and unique brewing 
+                            method of this cultural favorite.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="background-logo">
+            <div class="bg-logo" data-aos="zoom-in" data-aos-duration="2000">
+                <!-- <ion-icon name="cafe-outline"></ion-icon> -->
+                <div id="home-logo">
+                    <img src="./images/logo.jfif" alt="">
+                </div>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti?</p> -->
+                <p>Good ideas start with brainstorming, great ideas start with coffee</p>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- SECTION FOUR -->
+    <section id="section-four">
+        <div class="grid-two">
+            <div class="grid-image numb">
+                <p class="numbers">280</p>
+                <h4>Varieties of Coffee</h4>
+                <p class="paragraph">
+                    Our coffee restaurant offers a diverse range 
+                    of coffee varieties to satisfy every preference.
+                </p>
+            </div>
+            <div class="grid-image">
+                <p class="numbers">200</p>
+                <h4>Coffee Brands</h4>
+                <p class="paragraph">
+                    Our coffee restaurant proudly serves a variety 
+                    of premium coffee brands from around the world.
+                </p>
+            </div>
+            <div class="grid-image">
+                <p class="numbers">188</p>
+                <h4>Hours of testing</h4>
+                <p class="paragraph">
+                    Our coffee restaurant provides an array of 
+                    coffee options for testing throughout the day.
+                </p>
+            </div>
+            <div class="grid-image">
+                <p class="numbers">288</p>
+                <h4>Coffee market</h4>
+                <p class="paragraph">
+                    Our coffee restaurant showcases diverse coffee 
+                    markets with an array of unique and specialty blends.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION FIVE -->
+    <section id="section-five">
+        <div id="subsec-five" data-aos="fade-up" data-aos-duration="2000">
+            <div>
+                <h3>Online coffee shop</h3>
+                <p class="para">
+                    Order varieties of coffee with quality taste and up to 
+                    your expectation here in our coffee restaurant.
+                </p>
+            </div>
+            <div>
+                <div class="grid pictures">
+                    <div>
+                        <img src="./images/ethiopia.jpg" alt="#">
+                        <h4>Ethiopia Coffee</h4>
+                        <p>
+                            $15.00
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/kenya.jpg" alt="#">
+                        <h4>Kenya Coffee</h4>
+                        <p>
+                            $18.00
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/columbia.jpg" alt="#">
+                        <h4>Columbia Coffee</h4>
+                        <p>
+                            $18.00
+                        </p>
+                    </div>
+                    <div>
+                        <img src="./images/guatemela.jpg" alt="#">
+                        <h4>Guatemala Coffee</h4>
+                        <p>
+                            $28.00
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION SIX -->
+    <section id="section-six">
+        <div>
+            <h3>Our Gallery</h3>
+            <p class="para sub">
+                Explore our gallery to see the artistry behind our 
+                coffee and pastries. Each photo captures the inviting 
+                ambiance and delicious offerings of our restaurant.
+            </p>
+        </div>
+        <div id="secsix-gallary">
+            <div>
+                <img src="./images/one.jpg" alt="">
+            </div>
+            <div>
+                <img src="./images/New folder/place.jpg" alt="">
+            </div>
+            <div>
+                <img src="./images/three.jpg" alt="">
+            </div>
+            <div class="pix">
+                <img src="./images/four.jpg" alt="">
+            </div>
+            <div>
+                <img src="./images/eight.jpg" alt="">
+            </div>
+            <div class="pix">
+                <img src="./images/seven.jpg" alt="">
+            </div>
+            <div class="pix">
+                <img src="./images/six.jpg" alt="">
+            </div>
+            <div class="pix">
+                <img src="./images/five.jpg" alt="">
+                <!-- <p>djdjdj</p> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION SEVEN -->
+    <section id="section-seven">
+        <div id="subsec-seven" data-aos="zoom-in" data-aos-duration="2000">
+            <div id="para-one">
+                <p>Contact us for any inquiries or special requests at our coffee restaurant.</p>
+            </div>
+            <div>
+                <a href="./contact.html"><button id="contact-btn">Contact us</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECTION EIGHT -->
+    <section id="section-eight">
+        <div id="substitude-eight">
+            <div>
+                <h3>contact us</h3>
+            </div>
+            <div id="subsec-eight">
+                <div id="first-div">
+                    <div id="second-logo">
+                        <div id="logo-two">
+                            <img src="./images/logo.jfif" alt="Company's Logo">
+                        </div>
+                        <h5>Coffee Factory</h5>
+                    </div>
+                    <div>
+                        <div class="info">
+                            <div class="icons">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </div>
+                            <p>080 363 36777</p>
+                        </div>
+                        <div class="info">
+                            <div class="icons">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <p class="word">coffeefactory@gmail.com</p>
+                        </div>
+                        <div class="info">
+                            <div class="icons">
+                            <!-- <div class="icons"> -->
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+                            <p id="para-location" class="word">
+                                1111/Plot N0. 363, 88th Phase, LBB Close, Kanpur
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div></div> -->
+                <div>
+                    <div id="sm-header">
+                        <h5>Social Media Links</h5>
+                    </div>
+                    <div id="social-media">
+                        <div class="media-links">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                            <a href="#"><p>Facebook</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                            <a href="#"><p>Instagram</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <a href="#"><p>Whatsapp</p></a>
+                        </div>
+                        <div class="media-links">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                            <a href="#"><p>Twitter</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact-links">
+                    <h5>Our Links</h5>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About</a></li>
+                        <li><a href="./menu.html">Menu</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ICON LINK -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    <script src="./main.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 10
+      });
+    </script>
+</body>
+</html>
